@@ -1,0 +1,421 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: SF Pro Text, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.head {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 42px;
+}
+
+.logo {
+    width: 67px;
+    height: 35px;
+}
+
+.ssilki {
+    color: #424242;
+    transition: color 1ms linear;
+    font-size: 18px;
+}
+
+.ssilki:hover {
+    color: black;
+}
+
+.box {
+    width: 100%;
+    background-color: #F5F5F7;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.box2 {
+    height: 76px;
+    width: 1100px;
+    background-color: #F5F5F7;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.a {
+    width: 30px;
+    height: 30px;
+}
+
+.item1 {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.item0 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.silka {
+    color: #06c;
+    font-size: 20px;
+}
+
+.p0 {
+    font-size: 20px;
+}
+
+.b {
+    font-size: 20px;
+}
+
+.b2 {
+    font-size: 20px;
+}
+
+.b3 {
+    font-size: 20px;
+}
+
+.p01 {
+    color: #bf4800;
+    font-size: 18px;
+}
+
+.p02 {
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    padding-bottom: 8px;
+}
+
+.p03 {
+    font-size: 17px;
+}
+
+.btn {
+    background-color: #F5F5F7;
+    width: 380px;
+    height: 50px;
+    border: 0;
+    border-radius: 18px;
+    padding-top: 12px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.doc {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 600px;
+    margin-top: 50px;
+}
+
+.box_of_btns {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 36px;
+}
+
+.iPhones_box {
+    width: 1200px;
+    height: 700px;
+    background-color: #F5F5F7;
+    border-radius: 18px;
+    margin-left: 104px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iPhoness {
+    width: 1000px;
+    height: 700px;
+}
+
+.abox {
+    display: flex;
+    gap: 96px;
+}
+
+.model {
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.modelp {
+    font-size: 30px;
+    line-height: 1.16667;
+    letter-spacing: .009em;
+}
+
+.grey {
+    color: #86868b;
+}
+
+.element1 {
+    background-color: white;
+    height: 140px;
+    width: 400px;
+    border: solid 1px #86868b;
+    border-radius: 18px;
+}
+
+.element2 {
+    background-color: white;
+    height: 140px;
+    width: 400px;
+    border: solid 1px #86868b;
+    border-radius: 18px;
+    margin-bottom: 17px;
+}
+
+.element2:hover {
+    border: 2px #06c solid;
+}
+
+.element3 {
+    background-color: white;
+    height: 140px;
+    width: 400px;
+    border: solid 1px #86868b;
+    border-radius: 18px;
+    margin-bottom: 17px;
+}
+
+.element3:hover {
+    border: 2px #06c solid;
+}
+
+.bigbox {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.element1 {
+    display: flex;
+    gap: 120px;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    text-align: end;
+    color: black;
+    transition: color 1ms linear;
+    margin-bottom: 17px;
+}
+
+.element1:hover {
+    border: 2px #06c solid;
+}
+
+.ip {
+    text-align: start;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.iq {
+    text-align: start;
+}
+
+.element2 {
+    display: flex;
+    gap: 80px;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    text-align: end;
+    color: black;
+    transition: color 1ms linear;
+    margin-bottom: 17px;
+}
+
+
+.element3 {
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.d {
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.iPhones_box {
+    position: sticky;
+    top: 100px;
+}
+
+.abox {
+    height: 2250px;
+}
+
+.qw {
+    color: black;
+    font-size: 30px;
+    line-height: 1.16667;
+    letter-spacing: .009em;
+}
+
+.we {
+    color: #86868b;
+    font-size: 30px;
+}
+
+.divas {
+    margin-top: 80px;
+}
+
+.t {
+    color: black;
+    margin-top: 10px;
+}
+
+.colors {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 0;
+}
+
+.colors:hover {
+    border: 2px #86868b solid;
+}
+
+.images {
+    display: flex;
+    gap: 15px;
+    margin-top: 17px;
+    margin-left: -10px;
+}
+
+.op {
+    margin-top: 130px;
+    font-size: 30px;
+}
+
+.spand {
+    color: #86868b;
+}
+
+.el {
+    background-color: white;
+    height: 140px;
+    width: 400px;
+    border: solid 1px #86868b;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 160px;
+    color: black;
+    text-align: end;
+}
+
+.el0 {
+    background-color: white;
+    height: 140px;
+    width: 400px;
+    border: solid 1px #86868b;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 160px;
+    text-align: end;
+    margin-top: 17px;
+    color: black;
+}
+
+.el0:hover {
+    border: 2px #06c solid;
+}
+
+.el:hover {
+    border: 2px #06c solid;
+}
+
+.boxxx {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+    margin-top: 20px;
+}
+
+.div001 {
+    font-weight: 600;
+    font-size: 19px;
+}
+
+
+.abigdive {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.jpg {
+    width: 140px;
+    height: 140px;
+    border-radius: 18px 0px 0 18px;
+}
+
+.btn_cor {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: purple;
+}
+
+.btn_cor1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: gold;
+}
+
+.btn_cor2 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: whitesmoke;
+}
+
+.btn_cor3 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: black;
+}

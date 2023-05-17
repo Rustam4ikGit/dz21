@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    height: 1920px;
+    width: 1080px;
+}
+
+.text_h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.MacBook {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn_color {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn {
+    background: #0071E3;
+    width: 155px;
+    height: 42px;
+    border: none;
+    color: white;
+    border-radius: 15px;
+}
+
+.btn2 {
+    background: #CFE7FF;
+    width: 155px;
+    height: 42px;
+    border: none;
+    color: #797979;
+    border-radius: 15px;
+}
+
+.btn_ssd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_3 {
+    width: 321px;
+    height: 57px;
+    color: black;
+    border: 2px solid blue;
+    border-radius: 15px;
+}
+
+.btn_3:hover {
+    background-color: blue;
+    transition: 400ms;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 1080px;
+    height: 44px;
+    background-color: #797979;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
